@@ -2,16 +2,14 @@
 # Create function arguments a.
 # Assign the value pi to the variable "a" and return.
 
-# Asosiy deb nomlangan funksiya yarating.
-# Funktsiya argumentlarini yaratish a.
-# "a" o'zgaruvchisiga pi qiymatini belgilang va qaytaring.
-
-from math import pi
+from cmath import pi
 
 def main(a):
 
+    a=pi
+
     return a
 
-x=main(pi)
+x=main(0)
 
 print(x)
